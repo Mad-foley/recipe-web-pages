@@ -1,6 +1,12 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 main {
@@ -10,6 +16,9 @@ main {
 footer {
   padding-top: 24px;
   padding-bottom: 24px;
+  padding-left: 40px;
+  background-color: #025259;
+  color: #F4E2DE
 }
 img {
   height: 200px;
@@ -17,4 +26,33 @@ img {
 nav {
   border-bottom: 1px solid black;
   padding: 16px;
+  background-color: #F29325
+}
+a{
+  text-decoration: none;
+  color: #F4E2DE;
+}
+
+a:hover {
+  color:#826e60;
+}
+
+tr:nth-child(2n) {
+  background-color:#F4E2DE;
+}
+
+.recipe-link {
+  color:#D94F04;
+}
+
+h1 {
+  color: #007172
+}
+
+.recipe-link:hover{
+  text-shadow: #555902;
+}
+
+.grid div > div {
+  font-variant: small-caps;
 }
