@@ -31,7 +31,8 @@ footer {
   padding: 17px 40px;
   background-color: #025259;
   color: #F4E2DE;
-  font-size: 20px
+  font-size: 20px;
+  font-style: italic;
 }
 img {
   height: 200px;
@@ -43,20 +44,18 @@ nav {
 }
 a{
   text-decoration: none;
-  transition: 1s;
+  transition: .5s;
   color: #F4E2DE;
 }
 
-tr:nth-child(even) {
-  background-color:#F4E2DE;
-}
+
 
 .recipe-link, h1{
   color:#D94F04;
 }
 
 .recipe-link:hover{
-  color:#fb9663;
+  color:#c5744b;
 }
 
 .grid div > div {
@@ -64,5 +63,28 @@ tr:nth-child(even) {
   text-align: left;
 }
 ol {
+  border: 3px solid #53959a;
+  border-radius: 10px;
   font-size: larger;
+  box-shadow: 5px 5px 5px rgba(145, 151, 154, 0.5);
+  width: 750px
+}
+li {
+  margin: 10px;
+}
+td, table {
+  border: 3px solid #d9cbc8;
+  padding: 5px;
+}
+td, tr {
+  border-collapse: collapse;
+}
+
+table {
+  border-radius: 10px;
+  box-shadow:5px 5px 5px rgba(154, 145, 145, 0.5);
+}
+
+tr:nth-child(even) {
+  background-color:#F4E2DE;
 }
