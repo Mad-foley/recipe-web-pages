@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  color: #023237;
 }
 
 .grid {
@@ -18,14 +19,16 @@ body {
 main {
   padding: 16px;
 }
-
+.grid > div:hover {
+  box-shadow: 10px 10px 10px rgba(154, 145, 145, 0.75);
+}
 a:hover {
-  color:#722800;
+  color:#361f13;
   text-shadow: 1px 2px rgba(136, 34, 14, 0.5);
 }
 
 footer {
-  padding: 24px 40px;
+  padding: 17px 40px;
   background-color: #025259;
   color: #F4E2DE;
   font-size: 20px
@@ -44,7 +47,7 @@ a{
   color: #F4E2DE;
 }
 
-tr:nth-child(2n) {
+tr:nth-child(even) {
   background-color:#F4E2DE;
 }
 
@@ -53,7 +56,7 @@ tr:nth-child(2n) {
 }
 
 .recipe-link:hover{
-  color:#6c361b;
+  color:#fb9663;
 }
 
 .grid div > div {
