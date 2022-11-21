@@ -25,11 +25,10 @@ a:hover {
 }
 
 footer {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 40px;
+  padding: 24px 40px;
   background-color: #025259;
-  color: #F4E2DE
+  color: #F4E2DE;
+  font-size: 20px
 }
 img {
   height: 200px;
@@ -49,16 +48,12 @@ tr:nth-child(2n) {
   background-color:#F4E2DE;
 }
 
-.recipe-link {
+.recipe-link, h1{
   color:#D94F04;
 }
 
 .recipe-link:hover{
   color:#6c361b;
-}
-
-h1 {
-  color: #007172
 }
 
 .grid div > div {
