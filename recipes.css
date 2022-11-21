@@ -8,9 +8,20 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.grid > div {
+  margin: 0px 10px 0 10px;
+  box-shadow: 5px 5px 10px rgba(154, 145, 145, 0.5);
+  text-align: center;
+  padding: 0 30px;
+}
 
 main {
   padding: 16px;
+}
+
+a:hover {
+  color:#722800;
+  text-shadow: 1px 2px rgba(136, 34, 14, 0.5);
 }
 
 footer {
@@ -26,15 +37,12 @@ img {
 nav {
   border-bottom: 1px solid black;
   padding: 16px;
-  background-color: #F29325
+  background-color: #F29325;
 }
 a{
   text-decoration: none;
+  transition: 1s;
   color: #F4E2DE;
-}
-
-a:hover {
-  color:#826e60;
 }
 
 tr:nth-child(2n) {
@@ -45,14 +53,18 @@ tr:nth-child(2n) {
   color:#D94F04;
 }
 
+.recipe-link:hover{
+  color:#6c361b;
+}
+
 h1 {
   color: #007172
 }
 
-.recipe-link:hover{
-  text-shadow: #555902;
-}
-
 .grid div > div {
   font-variant: small-caps;
+  text-align: left;
+}
+ol {
+  font-size: larger;
 }
